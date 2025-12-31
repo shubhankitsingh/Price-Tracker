@@ -47,7 +47,7 @@ export async function scrapeAmazonProduct(url: string){
 
         const outOfStock = $('#availability span').text().trim().toLowerCase() === 'currently unavailable';
 
-        const imageUrls = Object.keys(JSON.parse(images));
+        const imageUrls = Object.keys(JSON.parse(images || '{}'));
 
         const currency = extractCurrency($('.a-price-symbol')) || (url.includes('.com') ? '$' : '₹');
                      
