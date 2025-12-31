@@ -1,0 +1,31 @@
+{
+  "name": "pricely",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.19",
+    "axios": "^1.13.2",
+    "cheerio": "^0.22.0",
+    "mongoose": "^9.0.2",
+    "next": "13.5.3",
+    "nodemailer": "^7.0.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.30",
+    "tailwindcss": "3.3.3",
+    "typescript": "^5.2.2"
+  }
+}
